@@ -22,6 +22,11 @@ The script validates required columns, numeric bounds, duplicate model/benchmark
 ## Power BI
 See [`powerbi/README.md`](powerbi/README.md) for import steps, Power Query, DAX measures, model relationships and report layout.
 
+## Initial findings
+
+- The dataset has 1,276 of 1,695 possible model-benchmark records (75.3% coverage); 36 of 113 models have results for all 15 benchmarks.
+- Coverage ranges from 52 reported models (46.0%) on MMMU, AIME 2024 and SWE-Bench Verified to all 113 models on MMLU, HellaSwag and ARC-Challenge.
+- The sparse coverage on several newer benchmarks means cross-benchmark leader tables represent different model populations. Read each ranking with its coverage count.
 ## Suggested questions
 - Which model leads each selected benchmark?
 - How much does benchmark coverage vary across the 113 models?
@@ -34,4 +39,5 @@ See [`powerbi/README.md`](powerbi/README.md) for import steps, Power Query, DAX 
 - Benchmark availability is uneven; rankings may reflect which models were reported, not the full market.
 - The supplied file does not include test-set versions, evaluation dates, confidence intervals or source references.
 - Model release date is not necessarily the benchmark measurement date.
+
 
