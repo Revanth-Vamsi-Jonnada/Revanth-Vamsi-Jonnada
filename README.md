@@ -25,6 +25,13 @@ I'm a postgraduate student at **Brunel University London**, interested in using 
 
 I'm developing and refining projects that demonstrate practical data skills. I'll add direct repository links and results as each project is documented.
 
+### LLM Benchmark Performance Explorer
+- Analyse 1,276 model benchmark records across 113 models, 23 organisations and 15 benchmarks.
+- Validate score fields and produce benchmark-level leader and coverage summaries with Python.
+- Includes a Power BI build kit with Power Query, DAX measures and report layout.
+- **Tools:** Python, CSV, Power BI.
+- [View project files](https://github.com/Revanth-Vamsi-Jonnada/Revanth-Vamsi-Jonnada/tree/master/projects/llm-benchmark-performance-explorer)
+
 ### E-Commerce Product Performance Dashboard
 - Analyse product and sales performance to understand revenue, profitability, and discount patterns.
 - Focus on clear KPIs, interactive visualisation, and business-oriented insights.
