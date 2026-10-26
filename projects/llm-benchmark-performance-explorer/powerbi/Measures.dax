@@ -1,0 +1,34 @@
+Model Count = DISTINCTCOUNT(BenchmarkScores[model_id])
+
+Organization Count = DISTINCTCOUNT(BenchmarkScores[organization])
+
+Benchmark Count = DISTINCTCOUNT(BenchmarkScores[benchmark])
+
+Score Records = COUNTROWS(BenchmarkScores)
+
+Average Score % = AVERAGE(BenchmarkScores[score_pct])
+
+Benchmark Leader Score % =
+MAXX(
+    TOPN(
+        1,
+        SUMMARIZE(
+            BenchmarkScores,
+            BenchmarkScores[model_id],
+            BenchmarkScores[model_name],
+            "ModelScorePct", AVERAGE(BenchmarkScores[score_pct])
+        ),
+        [ModelScorePct], DESC,
+        BenchmarkScores[model_name], ASC
+    ),
+    [ModelScorePct]
+)
+
+Models Reported = DISTINCTCOUNT(BenchmarkScores[model_id])
+
+Benchmark Coverage % =
+DIVIDE(
+    [Models Reported],
+    CALCULATE([Model Count], REMOVEFILTERS(BenchmarkScores[benchmark], BenchmarkScores[benchmark_type]))
+)
+
