@@ -1,0 +1,47 @@
+benchmark,rank,model_id,model_name,organization,release_date,score,max_score,score_pct
+AIME 2024,1,M098,Claude 4.5 Opus,Anthropic,2025-10-15,98.0,100,98.0
+AIME 2024,2,M103,Claude Opus 4.6,Anthropic,2026-02-01,98.0,100,98.0
+AIME 2024,3,M111,Claude Opus 4.7,Anthropic,2026-05-15,98.0,100,98.0
+ARC-Challenge,1,M080,Claude 3.7 Sonnet,Anthropic,2025-02-24,99.0,100,99.0
+ARC-Challenge,2,M073,DeepSeek V3,DeepSeek,2024-12-26,99.0,100,99.0
+ARC-Challenge,3,M055,GPT-4o,OpenAI,2024-05-13,99.0,100,99.0
+BBH,1,M113,Mistral Ultra,Mistral,2026-04-05,95.0,100,95.0
+BBH,2,M077,DeepSeek R1,DeepSeek,2025-01-20,94.3,100,94.3
+BBH,3,M089,o3,OpenAI,2025-04-16,92.39,100,92.39
+Chatbot Arena ELO,1,M104,Claude Sonnet 4.6,Anthropic,2026-02-01,1500.0,1500,100.0
+Chatbot Arena ELO,2,M106,GPT-5.5,OpenAI,2026-03-15,1495.7,1500,99.71
+Chatbot Arena ELO,3,M109,DeepSeek V4,DeepSeek,2026-04-22,1492.82,1500,99.52
+GPQA Diamond,1,M108,Grok-5,xAI,2026-03-01,92.0,100,92.0
+GPQA Diamond,2,M113,Mistral Ultra,Mistral,2026-04-05,91.65,100,91.65
+GPQA Diamond,3,M107,Gemini 3.5 Pro,Google,2026-04-10,90.27,100,90.27
+GSM8K,1,M080,Claude 3.7 Sonnet,Anthropic,2025-02-24,99.0,100,99.0
+GSM8K,2,M090,Claude 4 Opus,Anthropic,2025-05-22,99.0,100,99.0
+GSM8K,3,M111,Claude Opus 4.7,Anthropic,2026-05-15,99.0,100,99.0
+HellaSwag,1,M050,Claude 3 Sonnet,Anthropic,2024-03-04,98.0,100,98.0
+HellaSwag,2,M057,Claude 3.5 Sonnet,Anthropic,2024-06-20,98.0,100,98.0
+HellaSwag,3,M080,Claude 3.7 Sonnet,Anthropic,2025-02-24,98.0,100,98.0
+HumanEval,1,M080,Claude 3.7 Sonnet,Anthropic,2025-02-24,99.0,100,99.0
+HumanEval,2,M103,Claude Opus 4.6,Anthropic,2026-02-01,99.0,100,99.0
+HumanEval,3,M077,DeepSeek R1,DeepSeek,2025-01-20,99.0,100,99.0
+LiveCodeBench,1,M107,Gemini 3.5 Pro,Google,2026-04-10,87.58,100,87.58
+LiveCodeBench,2,M103,Claude Opus 4.6,Anthropic,2026-02-01,85.04,100,85.04
+LiveCodeBench,3,M111,Claude Opus 4.7,Anthropic,2026-05-15,84.02,100,84.02
+MATH,1,M098,Claude 4.5 Opus,Anthropic,2025-10-15,98.0,100,98.0
+MATH,2,M103,Claude Opus 4.6,Anthropic,2026-02-01,98.0,100,98.0
+MATH,3,M111,Claude Opus 4.7,Anthropic,2026-05-15,98.0,100,98.0
+MMLU,1,M080,Claude 3.7 Sonnet,Anthropic,2025-02-24,95.0,100,95.0
+MMLU,2,M090,Claude 4 Opus,Anthropic,2025-05-22,95.0,100,95.0
+MMLU,3,M098,Claude 4.5 Opus,Anthropic,2025-10-15,95.0,100,95.0
+MMLU-Pro,1,M109,DeepSeek V4,DeepSeek,2026-04-22,90.0,100,90.0
+MMLU-Pro,2,M106,GPT-5.5,OpenAI,2026-03-15,90.0,100,90.0
+MMLU-Pro,3,M107,Gemini 3.5 Pro,Google,2026-04-10,90.0,100,90.0
+MMMU,1,M108,Grok-5,xAI,2026-03-01,82.65,100,82.65
+MMMU,2,M106,GPT-5.5,OpenAI,2026-03-15,82.28,100,82.28
+MMMU,3,M113,Mistral Ultra,Mistral,2026-04-05,81.71,100,81.71
+SWE-Bench Verified,1,M103,Claude Opus 4.6,Anthropic,2026-02-01,82.66,100,82.66
+SWE-Bench Verified,2,M109,DeepSeek V4,DeepSeek,2026-04-22,80.97,100,80.97
+SWE-Bench Verified,3,M107,Gemini 3.5 Pro,Google,2026-04-10,79.84,100,79.84
+TruthfulQA,1,M094,DeepSeek R2,DeepSeek,2025-09-15,84.23,100,84.23
+TruthfulQA,2,M095,Grok-4,xAI,2025-07-09,79.23,100,79.23
+TruthfulQA,3,M077,DeepSeek R1,DeepSeek,2025-01-20,78.44,100,78.44
+
