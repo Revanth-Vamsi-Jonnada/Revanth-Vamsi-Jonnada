@@ -19,6 +19,13 @@ python analyze.py
 
 The script validates required columns, numeric bounds, duplicate model/benchmark keys and the supplied percentage calculation. It writes top-three results within each benchmark to `outputs/benchmark_leaders_top3.csv` and reported-model counts to `outputs/benchmark_coverage.csv`.
 
+## Dashboard previews
+
+The static report previews below are rendered from the supplied CSV and included in `powerbi/screenshots/`. They illustrate the intended Power BI layout and use the dataset's actual values. They are preview images, not screenshots captured from Power BI Desktop.
+
+![LLM benchmark overview preview](powerbi/screenshots/overview.png)
+
+![Benchmark coverage preview](powerbi/screenshots/coverage.png)
 ## Power BI
 See [`powerbi/README.md`](powerbi/README.md) for import steps, Power Query, DAX measures, model relationships and report layout.
 
@@ -39,5 +46,7 @@ See [`powerbi/README.md`](powerbi/README.md) for import steps, Power Query, DAX 
 - Benchmark availability is uneven; rankings may reflect which models were reported, not the full market.
 - The supplied file does not include test-set versions, evaluation dates, confidence intervals or source references.
 - Model release date is not necessarily the benchmark measurement date.
+
+
 
 
