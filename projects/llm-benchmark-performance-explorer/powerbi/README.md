@@ -26,3 +26,17 @@ Use one fact table (`BenchmarkScores`) at the grain of one model × benchmark. K
 
 Add a visible note to the report: “Scores are comparable only within the same benchmark. Chatbot Arena ELO is a rating scale. Dataset provenance and evaluation conditions were not supplied.”
 
+## Visual previews
+
+These static previews use the supplied CSV values to show the intended two-page report. They are not captures from Power BI Desktop. Recreate the interactive report in Power BI Desktop using the query and measures above.
+
+![Overview page preview](screenshots/overview.png)
+
+![Coverage page preview](screenshots/coverage.png)
+
+To regenerate the images with Python and Pillow:
+
+```bash
+python powerbi/make_previews.py
+```
+
